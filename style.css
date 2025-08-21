@@ -125,7 +125,7 @@ section{
     line-height: 4rem;
 }
 .home-content p{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 500;
     line-height: 1.8;
 }
@@ -220,7 +220,25 @@ section{
 .about-content .btn{
     margin: 3rem 0;
 }
+.expanded-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, opacity 0.3s ease-in-out;
+    opacity: 0;
+}
 
+.expanded-content.show {
+    max-height: 500px; /* Adjust based on your content */
+    opacity: 1;
+    margin-top: 1.5rem;
+}
+
+.expanded-content p {
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+    font-size: 1.8rem;
+    line-height: 1.6;
+}
 ::-webkit-scrollbar{
     width: 20px;
 }

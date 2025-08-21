@@ -31,3 +31,16 @@ document.getElementById('contact-form').addEventListener('submit', function(even
             submitBtn.disabled = false;
         });
 });
+
+function toggleReadMore() {
+    const expandedContent = document.getElementById('expanded-about');
+    const readMoreBtn = document.getElementById('read-more-btn');
+    
+    if (expandedContent.classList.contains('show')) {
+        expandedContent.classList.remove('show');
+        readMoreBtn.textContent = 'Read More';
+    } else {
+        expandedContent.classList.add('show');
+        readMoreBtn.textContent = 'Read Less';
+    }
+}
