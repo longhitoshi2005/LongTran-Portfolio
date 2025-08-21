@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <header class="header">
+        <a href="#home" class="logo">
+            Long <span>Tran</span>
+        </a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button class="gradient-btn">Contact Me</button>
+    </header>
+
+    <section class="home" id="home">    
+        <div class="home-content"> 
+            <h1>Hi, It's <span>Long Tran</span></h1>
+            <h3>
+                I'm a <span>AI Engineer</span>
+            </h3>
+            <p>A problem-solver with a passion for leveraging technology to address real-world challenges, eager to join a team of like-minded developers. Currently seeking a role in a company with highly challenging projects, where performance is recognized and rewarded.</p>
+            <div class="social-icons">
+                <a href="#">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-facebook"></i>
+                </a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+
+
+        <div class="home-img">
+
+            <img src="image.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>As a second-year Computer Science student at Ho Chi Minh City University of Technology, I am passionate about researching and applying cutting-edge technologies such as artificial intelligence, computer vision, and embedded systems. Through both academic learning and hands-on projects – ranging from robotics competitions, agricultural drones, and AI-driven classroom behavior analysis to extracurricular activities and my role as Executive Assistant to a CEO – I have not only built strong technical expertise but also developed skills in project management, teamwork, communication, and problem-solving. I strive to transform ideas into practical solutions that create real-world value and positive impact for the community.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bxl-figma"></i>
+                    <h4>UI / UX Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code"></i>
+                    <h4>Frontend Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code-curly"></i>
+                    <h4>Backend Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+
+        <div class="projects-box">
+
+            <div class="project-card">
+                <img src="project1.png" alt="">
+                <h3>Project 1</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur molestias facilis voluptates temporibus ipsa adipisci quam, repellendus unde modi sit reprehenderit alias architecto ad fugit necessitatibus blanditiis impedit cupiditate quas!</p>
+                <div class="btn">Review Project</div>
+            </div>
+
+            <div class="project-card">
+                <img src="project2.png" alt="">
+                <h3>Project 2</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur molestias facilis voluptates temporibus ipsa adipisci quam, repellendus unde modi sit reprehenderit alias architecto ad fugit necessitatibus blanditiis impedit cupiditate quas!</p>
+                <div class="btn">Review Project</div>
+            </div>
+
+            <div class="project-card">
+                <img src="project3.png" alt="">
+                <h3>Project 3</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur molestias facilis voluptates temporibus ipsa adipisci quam, repellendus unde modi sit reprehenderit alias architecto ad fugit necessitatibus blanditiis impedit cupiditate quas!</p>
+                <div class="btn">Review Project</div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" 
+                    placeholder="Full Name">
+                    <input type="email" 
+                    placeholder="Email">
+                </div>
+
+                <div class="input-box">
+                    <input type="number" 
+                    placeholder="Phone Number">
+                    <input type="text" 
+                    placeholder="Subject">
+                </div>
+
+            </div>
+            <div class="input-group-2">
+                <textarea name="" id="" 
+                placeholder="Your Message" cols="30" rows ="10"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+                <a href="#">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxl-facebook"></i>
+                </a>
+            </div>
+            <ul class="list">
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+            <p class="copyright">
+                &copy; Long Tran. All rights reserved.
+            </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
